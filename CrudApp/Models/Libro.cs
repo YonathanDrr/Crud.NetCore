@@ -25,7 +25,7 @@ namespace CrudApp.Models
         [Required(ErrorMessage = "Campo Obligatorio")]
         [DataType(DataType.Date)]
         [Display(Name = "Fecha de Lanzamiento")]
-        public DataType FechaLanzamiento { get; set; }
+        public DateTime FechaLanzamiento { get; set; }
 
         [Required(ErrorMessage ="Campo Obligatorio")]
         [StringLength(50, ErrorMessage = "Campo obligatorio", MinimumLength = 3)]
